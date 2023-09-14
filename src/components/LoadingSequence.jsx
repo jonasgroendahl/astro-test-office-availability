@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { LoadingCookie } from "./LoadingCookie";
 import { LoadingChair } from "./LoadingChair";
-import fs from "node:fs/promises";
 import { isMonday, isWeekend } from "date-fns";
 
 export const LoadingSequence = () => {

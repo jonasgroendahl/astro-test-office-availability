@@ -37,7 +37,7 @@ import { LoadingSequence } from '../components/LoadingSequence.jsx';
 		<h1>Will I get chair at <span class="text-gradient">the office?</span></h1>
 		<h5>{new Date().toDateString()}</h5>
 		<div>
-			<LoadingSequence client:load />
+			<LoadingSequence client:only />
 		</div>
 	</main>
 </Layout>
